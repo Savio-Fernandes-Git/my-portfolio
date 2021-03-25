@@ -1,13 +1,193 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
+
+
+/* Mobile */
+@media screen and (max-width:480px){
+
+  .navbar-mobile{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    flex-direction: column;
+    list-style-type: none;
+    grid-gap: 0px;
+  }
+
+  .intro{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+    margin-right: 0px;
+    align-items: center;
+    margin-right: 200px;
+    font-size: 50px;
+  }
+  .image{
+    display: none;
+  }
+
+  .nav-options{
+    display:none;
+  }
+  .mobile{
+    display: block;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  font-family: 'Poppins', sans-serif;
+  color:#fff;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  max-height: max-content;
+}
+
+/* Navbar styles */
+.navbar{
+  color: rgb(25, 175, 180);
+  background-color: rgb(25, 175, 180);
+}
+
+.container{
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 4px 10px 4px;
+  /* top right bottom left */
+  position: relative;
+  flex-direction: row;
+  padding-left:50px;
+  color: rgb(25, 175, 180);
+  background-color: rgb(25, 175, 180);
+  width:100%;
+  align-items: center;
+}
+
+.initials{
+  background-color: rgb(25, 175, 180);
+  color:#000;
+  font-size:45px;
+}
+
+.navbar-text{
+  color: #000;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 5px;
+  padding-right: 20px;
+  border-right: 5px;
+  background-color: rgb(25, 175, 180);
+}
+.navbar-text:hover{
+  background-color: rgb(22, 144, 148);
+}
+
+.about-h1{
+  color:rgb(216, 212, 212);
+  font-size: x-large;
+}
+
+.mobile{
+  background-color: rgb(25, 175, 180);
+  display:none;
+}
+
+/* Home Styles */
+.intro{
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  margin-right: 0px;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 200px;
+  font-size: 50px;
+}
+
+.skillset-icons{
+  height: 80vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+  color:rgb(25, 175, 180);
+  flex-wrap: wrap;
+}
+
+.social-icons{
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Footer styles */
+.footer{
+  display:flex;
+  justify-content: center;
+  align-content: flex-end;
+  background-color: rgb(25, 175, 180);
+  color:#000;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* Project styles */
+.project{
+  height: 100%;
+  max-height: max-content;
+}
+.web-code{
+  margin-top: 50px;
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  align-content:flex-end;
+  position: relative;
+}
+
+.web-code-text:hover{
+  background-color:rgb(36, 34, 34);
+  cursor: pointer; 
+}
+
+/* Resume styles */
+.resume{
+  height: 100%;
+}
+
+.dl{
+  width:175px;
+  display: flex;
+  justify-content: flex-start;
+  align-content:flex-end;
+  position: relative;
+}
+
+.dl:hover{
+  background-color:rgb(36, 34, 34);
+  cursor: pointer; 
+}
+
+/* about styles */
+.about{
+  height: 50vh;
+  max-height: max-content;
 }
