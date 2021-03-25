@@ -30,22 +30,28 @@ export default function NavBar() {
             <h1 className="initials">
                 SF
             </h1>
-                <nav className= {click? "nav-options-active":"nav-options"}>
-                    <NavLink className="navbar-text" to="/" exact>
+            <ul>
+                <nav className= {click ? "nav-options active" : "nav-options"}>
+                    <NavLink className="navbar-text" to="/" exact onClick={closeMobileMenu}>
                         Home
                     </NavLink>
-                    <NavLink className="navbar-text" to="/project" exact>
+                    <NavLink className="navbar-text" to="/project" exact onClick={closeMobileMenu}>
                         Projects
                     </NavLink>
-                    <NavLink className="navbar-text" to="/post" exact>
+                    <NavLink className="navbar-text" to="/post" exact onClick={closeMobileMenu}>
                         Resume
                     </NavLink>
-                    <NavLink className="navbar-text" to="/about" exact>
+                    <NavLink className="navbar-text" to="/about" exact onClick={closeMobileMenu}>
                         About
                     </NavLink>
                 </nav>
-            <div className="mobile">
-                x
+            </ul>
+            <div className="mobile-menu mr-8" onClick={handleClick}>
+                {click ? (
+                    <GrClose className="menu-icon" />
+                ) : (
+                    <GiHamburgerMenu className="menu-icon" />
+                )}
             </div>
             </motion.div>
         </header>

@@ -15,7 +15,6 @@ const override = css`
   display: block;
   margin: 0 auto;
   margin-top: 200px;
-  margin-left: 50%;
 `;
 
 function App() {
@@ -31,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-    {loading ?  <RingLoader color={color} loading={loading} css={override} size={80}/> 
+    {loading ?  <RingLoader color={color} loading={loading} css={override} size={150}/> 
     :
     <AnimatePresence>
       <BrowserRouter>
