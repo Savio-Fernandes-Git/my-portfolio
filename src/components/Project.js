@@ -4,7 +4,7 @@ export default function Project() {
 
     return (
         <div>
-        <h1 data-aos="fade-right" data-aos-duration="2000" className="ml-32 mt-16 text-4xl">Projects</h1>
+        <h1 data-aos="fade-right" data-aos-duration="2000" className="projectTitle ml-32 mt-16 text-4xl">Projects</h1>
         <div data-aos="fade-up" data-aos-duration="2000" className="project grid grid-cols-1 md:grid-cols-2 grid-flow-row m-32 mt-14 gap-12">
             <div>
                 <h1 className="text-2xl">Pizza Joint using framer motion</h1>

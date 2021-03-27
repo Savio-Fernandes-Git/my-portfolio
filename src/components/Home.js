@@ -39,13 +39,13 @@ export default function Home() {
             }
         
     return (
-        <motion.div className="home"
+        <motion.div className="home grid grid-cols-1 md:grid-cols-1 grid-flow-column"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
         >
         <div className="intro">
-            <h1 data-aos="fade-right" data-aos-duration="2000">Hello, I am Savio Fernandes</h1>
+            <h1 data-aos="fade-right" data-aos-duration="2000" className="intro-text">Hello, I am Savio Fernandes</h1>
             <span className="image" data-aos="fade-left" data-aos-duration="2000">
                 <motion.img 
                 drag
@@ -53,7 +53,7 @@ export default function Home() {
                 src={me} alt="My Pic" className="rounded-full border-4 border-white"/>
             </span>
         </div>
-        <h1 data-aos="fade-right" data-aos-duration="2000" className="text-4xl ml-16">Skillset/Tools used</h1>
+        <h1 data-aos="fade-right" data-aos-duration="2000" className="skills-text text-4xl ml-16">Skillset/Tools used</h1>
         <div className="social-icons" data-aos="fade-up" data-aos-duration="2000" >
             <motion.div className="icons" variants={buttonVariants} whileHover="hover"
             data-aos="fade-up" data-aos-duration="2000">
@@ -85,7 +85,7 @@ export default function Home() {
                 <p className="ml-0 mt-4">TailwindCSS</p>
             </motion.div>
         </div>
-        <h1 data-aos="fade-right" data-aos-duration="2000" className="text-4xl ml-16">Socials</h1>
+        <h1 data-aos="fade-right" data-aos-duration="2000" className="socials-text text-4xl ml-16">Socials</h1>
         <div className="social-icons">
         <motion.div variants={buttonVariants} whileHover="hover">
             <SocialIcon data-aos="fade-up" data-aos-duration="2000" url="https://www.linkedin.com/in/savio15/" fgColor="rgb(25, 175, 180)" bgColor="#333" style={{ height: 150, width: 150 }}/>

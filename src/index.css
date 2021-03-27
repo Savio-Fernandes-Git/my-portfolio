@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
 
+@font-face{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/Poppins-Regular.ttf) format('truetype');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
 *{
   font-family: 'Poppins', sans-serif;
   color:#fff;
@@ -152,8 +161,8 @@
 
 /* about styles */
 .about{
-  height: 50vh;
-  max-height: max-content;
+  height: 100vh;
+
 }
 
 /* Mobile */
@@ -164,6 +173,7 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    /* overflow: auto; */
     justify-content: space-around;
     margin-right: 0px;
     align-items: center;
@@ -180,11 +190,11 @@
 
   .nav-options {
     display: flex;
-    /* width: 100%; */
+    /* width: 100%;  */
     height: 0;
     position: absolute;
-    top: 80px;
-    right: 0 ;
+    top: -200%;
+    right: -0%;
     opacity: 0;
     transition: all 0.5s ease;
     flex-direction: column;
@@ -200,12 +210,52 @@
     width:25px;
   }
   .nav-options.active {
+    top:80px;
     right: 0;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
     align-content: center;
     padding-left: 0px;
+  }
+  .intro-text{
+    margin:50px;
+  }
+
+  .skills-text{
+    margin:50px;
+  }
+
+  .socials-text{
+    margin:50px;
+  }
+
+  .projectTitle{
+    margin: 50px;
+  } 
+
+  .project{
+    margin: 50px;
+  }
+
+  .resumeTitle{
+    margin: 50px;
+  }
+
+  .dl{
+    margin: 50px;
+  }
+
+  .resume{
+    margin: 50px;
+  }
+
+  .aboutTitle{
+    margin: 50px;
+  }
+
+  .about{
+    margin: 50px;
   }
 }
 .mobile-menu{

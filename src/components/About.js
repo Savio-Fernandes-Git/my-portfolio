@@ -1,11 +1,10 @@
 import React from 'react'
-import { motion } from 'framer-motion';
 
 export default function About() {
 
     return (
         <div>
-        <h1 data-aos="fade-right" data-aos-duration="2500" className="ml-32 mt-16 pb-2 text-4xl">
+        <h1 data-aos="fade-right" data-aos-duration="2500" className="aboutTitle ml-32 mt-16 pb-2 text-4xl">
             About
         </h1>
         <div 
@@ -20,6 +19,7 @@ export default function About() {
                     <p className="text-2xl mb-4">Reactjs</p>
                     <p className="text-2xl mb-4">Framer Motion</p>
                     <p className="text-2xl mb-4">AOS</p>
+                    <p className="text-2xl mb-4">TailwindCSS</p>
                 </div>
             </div>
         </div>

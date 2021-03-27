@@ -2,19 +2,10 @@ import React from 'react'
 import CV2021 from '../documents/CV 2021.pdf';
 
 export default function Post() {
-    const projectVariants = {
-        hidden: { 
-            x: '-100vw' 
-        },
-        visible: {
-        x: 0,
-        transition: { type: 'tween', duration: 1 ,ease:"easeInOut"}
-        } 
-    }
 
     return (
     <div>
-        <h1 data-aos="fade-right" data-aos-duration="2000" className="ml-32 mt-16 text-4xl">Resume</h1>
+        <h1 data-aos="fade-right" data-aos-duration="2000" className="resumeTitle ml-32 mt-16 text-4xl">Resume</h1>
         <a href={CV2021} download>
         <h1 data-aos="fade-right" data-aos-duration="2500" className="dl p-2 ml-32 mt-12">Download Resume</h1>
         </a>
