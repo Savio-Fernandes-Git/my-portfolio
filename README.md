@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Built using:
+"aos": "^2.3.4",
+"framer-motion": "^4.0.0",
+"react": "^17.0.1"
+tailwindCSS
+
 ## Available Scripts
 
 In the project directory, you can run:
