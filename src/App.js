@@ -36,7 +36,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
           <Switch>
-            <Route component={Home} path='/' exact />
+            <Route component={Home} path='/' exact/>
             <Route component={About} path='/About' />
             <Route component={Post} path='/Post' />
             <Route component={Project} path='/Project' />

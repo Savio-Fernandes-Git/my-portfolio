@@ -35,13 +35,13 @@ export default function NavBar() {
                     <NavLink className="navbar-text" to="/" exact onClick={closeMobileMenu}>
                         Home
                     </NavLink>
-                    <NavLink className="navbar-text" to="/project" exact onClick={closeMobileMenu}>
+                    <NavLink className="navbar-text" to="/project"  onClick={closeMobileMenu}>
                         Projects
                     </NavLink>
-                    <NavLink className="navbar-text" to="/post" exact onClick={closeMobileMenu}>
+                    <NavLink className="navbar-text" to="/post"  onClick={closeMobileMenu}>
                         Resume
                     </NavLink>
-                    <NavLink className="navbar-text" to="/about" exact onClick={closeMobileMenu}>
+                    <NavLink className="navbar-text" to="/about"  onClick={closeMobileMenu}>
                         About
                     </NavLink>
                 </nav>
