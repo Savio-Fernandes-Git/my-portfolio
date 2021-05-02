@@ -96,7 +96,27 @@
   align-items: center;
   margin-left: 100px;
   margin-right: 200px;
+}
+
+.intro-text{
   font-size: 50px;
+}
+
+.Profile{
+  height: 60vh;
+  min-height: -webkit-fill-available;
+  min-height: 60vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+  color:rgb(25, 175, 180);
+  flex-wrap: wrap;
+}
+
+.profile-text{
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .skillset-icons{
@@ -173,7 +193,10 @@
 }
 
 /* about styles */
-.about{
+.aboutOne{
+  height: 100%;
+}
+.aboutTwo{
   height: 100vh;
 }
 
@@ -266,7 +289,9 @@
   .aboutTitle{
     margin: 50px;
   }
-
+  .aboutOne{
+    margin: 50px;
+  }
   .about{
     margin: 50px;
   }
