@@ -1,5 +1,5 @@
 import React from 'react'
-import me from '../Pictures/me.jfif';
+import me from '../Pictures/pfp.jpg';
 import { motion } from 'framer-motion';
 
 export default function About() {
@@ -24,15 +24,15 @@ export default function About() {
                 >
                 
 
-<p>I am Savio Fernandes, a passionate software developer with experience using the latest development technologies and skills in front-end development. Seeking to raise tech effectiveness by working with my maximum potential through coordination and diligence.</p><br/>
+<p>I am Savio Fernandes, a passionate software engineer with experience using the latest development technologies and skills in full-stack development. Seeking to raise tech effectiveness by working with my maximum potential through coordination and diligence.</p><br/>
 
 <p>I was always fascinated by how people developed websites and how the whole thing produced a good-looking product on the browser.</p><br/>
 
-<p>I began my journey in web development when I decided I had to do an internship for my undergraduate requirements, since it would provide credit hours for my course. I quickly gathered a curriculum and got into HTML, CSS and Vanilla JavaScript. I spent few hours a day learning new topics, going through courses and learning with practical examples. My short-term goal was to study Reactjs because it was a quite popular framework and it has a huge developer community. Many websites are built on Reactjs. It also allows me to get into React Native which would help me in app development later. </p><br/>
+<p>I began my journey in software engineering when I decided I had to do an internship for my undergraduate requirements, since it would provide credit hours for my course. I quickly gathered a curriculum and got into HTML, CSS and Vanilla JavaScript. I spent few hours a day learning new topics, going through courses and learning with practical examples. My short-term goal was to study Reactjs because it was a quite popular framework and it has a huge developer community. Many websites are built on Reactjs. It also allows me to get into React Native which would help me in app development later. </p><br/>
 
-<p>Now, my current motive is to study C# and .Net core for a backend technology. </p><br/>
+<p>Now, my current motive is to study UI/UX design to complement my full stack skills. </p><br/>
 
-<p>Besides web development, I love listening & producing music, playing football, basketball and table tennis. </p><br/>
+<p>Besides software engineering, I love listening & producing music, skateboarding, playing football, basketball and table tennis. </p><br/>
                 </div>
             </div>
         <div 

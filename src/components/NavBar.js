@@ -38,7 +38,7 @@ export default function NavBar() {
                     <NavLink className="navbar-text" to="/project"  onClick={closeMobileMenu}>
                         Projects
                     </NavLink>
-                    <NavLink className="navbar-text" to="/post"  onClick={closeMobileMenu}>
+                    <NavLink className="navbar-text" to="/resume"  onClick={closeMobileMenu}>
                         Resume
                     </NavLink>
                     <NavLink className="navbar-text" to="/about"  onClick={closeMobileMenu}>

@@ -1,7 +1,7 @@
 import React from 'react'
-import CV2021 from '../documents/CV 2021.pdf';
+import CV2021 from '../documents/CV February 2023 Savio.pdf';
 
-export default function Post() {
+export default function Resume() {
 
     return (
     <div>
@@ -12,6 +12,34 @@ export default function Post() {
         <div data-aos="fade-up" data-aos-duration="2000" className="resume grid grid-cols-1 md:grid-cols-1 grid-flow-row m-32 mt-10 gap-4">    
             <div>
                 <h1 data-aos="zoom-out-right" data-aos-duration="2000" className="text-3xl">Experience</h1>
+                <div data-aos="zoom-out-right" data-aos-duration="2000">
+                    <p className="mt-4 text-xl">Full Stack Software Engineer | Cargo LLC </p>
+                    <p>August 2021 – September 2022</p>
+                    <ul>
+                        <li className="mt-4 ml-2">- Created RESTful APIs to serve web & mobile applications using .NET core 6.</li>
+                        <li className="mt-4 ml-2">- Well-versed with Repository pattern with Unit of Work & CQRS+Mediatr pattern.</li>
+                        <li className="mt-4 ml-2">- Experience with Ocelot API gateway for Microservices pattern.</li>
+                        <li className="mt-4 ml-2">- Worked on geographical mapping services.</li>
+                    </ul>
+                </div>
+                <div data-aos="zoom-out-right" data-aos-duration="2000">
+                    <p className="mt-4 text-xl">IT Student Computing Assistant - Level 1 Tech Support | Maynooth University </p>
+                    <p>October 2022 – Present</p>
+                    <ul>
+                        <li className="mt-4 ml-2">- Performed level 1 tech support.</li>
+                        <li className="mt-4 ml-2">- Experience in troubleshooting common tech problems.</li>
+                        <li className="mt-4 ml-2">- Worked at the library front desk to cater to peer requirements.</li>
+                        <li className="mt-4 ml-2 mb-8   ">- Experience in navigating azure AD and user credential management.</li>
+                    </ul>
+                </div>
+                <div data-aos="zoom-out-right" data-aos-duration="2000">
+                    <p className="mt-4 text-xl">Student Program Assistant-IEP | American University of Kuwait (AUK)</p>
+                    <p>May 2019 – May 2020</p>
+                    <ul>
+                        <li className="mt-4 ml-2">- Conducted and Proctored Accuplacer exams for newly admitted students.</li>
+                        <li className="mt-4 ml-2 mb-8">- Worked as a peer mentor for freshman university orientation.</li>
+                    </ul>
+                </div>
                 <div data-aos="zoom-out-right" data-aos-duration="2000">
                     <p className="mt-4 text-xl">Student Program Assistant-IEP | American University of Kuwait (AUK)</p>
                     <p>May 2019 – May 2020</p>
@@ -41,10 +69,18 @@ export default function Post() {
             <div>
                 <h1 data-aos="zoom-out-right" data-aos-duration="2000" className="text-3xl">Education</h1>
                 <div data-aos="zoom-out-right" data-aos-duration="2000">
+                    <p className="mt-4 text-xl">MSc in Computer Science (Software Engineering) | Maynooth University</p>
+                    <p>2022 – 2023</p>
+                    <ul>
+                        <li className="mt-4 ml-2">- Computer science program focussed on Software Engineering principles.</li>
+                        <li className="mt-4 ml-2 mb-8">- Expected to graduate in May 2023.</li>
+                    </ul>
+                </div>
+                <div data-aos="zoom-out-right" data-aos-duration="2000">
                     <p className="mt-4 text-xl">BE in Computer Engineering | American University of Kuwait (AUK)</p>
                     <p>2016 – 2021</p>
                     <ul>
-                        <li className="mt-4 ml-2 mb-8">- 3.03 CGPA. Senior student/Final year. Expected to graduate in June 2021.</li>
+                        <li className="mt-4 ml-2 mb-8">- 3.10 CGPA in ABET certified Computer Engineering Program.</li>
                     </ul>
                 </div>
                 <div data-aos="zoom-out-right" data-aos-duration="2000">
