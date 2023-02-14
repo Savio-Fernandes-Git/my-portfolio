@@ -19,7 +19,7 @@ export default function Resume() {
                         <li className="mt-4 ml-2">- Created RESTful APIs to serve web & mobile applications using .NET core 6.</li>
                         <li className="mt-4 ml-2">- Well-versed with Repository pattern with Unit of Work & CQRS+Mediatr pattern.</li>
                         <li className="mt-4 ml-2">- Experience with Ocelot API gateway for Microservices pattern.</li>
-                        <li className="mt-4 ml-2">- Worked on geographical mapping services.</li>
+                        <li className="mt-4 ml-2 mb-8">- Worked on geographical mapping services.</li>
                     </ul>
                 </div>
                 <div data-aos="zoom-out-right" data-aos-duration="2000">
@@ -29,7 +29,7 @@ export default function Resume() {
                         <li className="mt-4 ml-2">- Performed level 1 tech support.</li>
                         <li className="mt-4 ml-2">- Experience in troubleshooting common tech problems.</li>
                         <li className="mt-4 ml-2">- Worked at the library front desk to cater to peer requirements.</li>
-                        <li className="mt-4 ml-2 mb-8   ">- Experience in navigating azure AD and user credential management.</li>
+                        <li className="mt-4 ml-2 mb-8">- Experience in navigating azure AD and user credential management.</li>
                     </ul>
                 </div>
                 <div data-aos="zoom-out-right" data-aos-duration="2000">
