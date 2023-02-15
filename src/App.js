@@ -10,6 +10,7 @@ import { AnimatePresence } from "framer-motion";
 import RingLoader from "react-spinners/RingLoader";
 import { css } from "@emotion/core";
 import Resume from "./components/Post";
+import ScrollToTop from "./components/ScrollToTop";
 
 const override = css`
   display: block;
@@ -35,13 +36,14 @@ function App() {
       ) : (
         <AnimatePresence>
           <BrowserRouter>
-            <NavBar />
-            <Switch>
-              <Route component={Home} path="/" exact />
-              <Route component={About} path="/about" />
-              <Route component={Resume} path="/resume" />
-              <Route component={Project} path="/project" />
-            </Switch>
+            <ScrollToTop />
+              <NavBar />
+              <Switch>
+                <Route component={Home} path="/" exact />
+                <Route component={About} path="/about" />
+                <Route component={Resume} path="/resume" />
+                <Route component={Project} path="/project" />
+              </Switch>
             <Footer />
           </BrowserRouter>
         </AnimatePresence>
